@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  background-color: #d946ef;
+  padding: 5px 20px 5px 20px;
+  margin: 20px;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+}
+input {
+  border-radius: 8px;
+  color: #323f4b;
+  border: 1px solid #cbd2d9;
+  height: 25px;
+}
+
+input:focus {
+  border-color: #cbd2d9;
+  outline: none;
+}
